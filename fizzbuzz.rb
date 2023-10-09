@@ -6,7 +6,7 @@ def fizzbuzz(num)
   elsif num%5==0
     puts "Buzz"
   else
-    puts num
+   return num
   end
 end
 
@@ -14,4 +14,5 @@ nummax=100
 
 (1..nummax).each do |numer|
   fizzbuzz(numer)
+  puts numer
 end
